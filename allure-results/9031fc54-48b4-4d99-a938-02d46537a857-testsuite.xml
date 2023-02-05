@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675547101086' stop='1675547205684'>
+    <name>Access admin painel</name>
+    <title>Access admin painel</title>
+    <test-cases>
+        <test-case start='1675547101087' status='failed' stop='1675547205675'>
+            <name>should login with valid credentials and register a product</name>
+            <title>should login with valid credentials and register a product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy s8-7.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='7ece8c0d-3c51-4930-8cec-25058637511d-attachment.mp4' type='video/mp4' size='183'/>
+            </attachments>
+            <failure>
+                <message>expect(received).toBeTruthy()
+                
+                Received: undefined</message>
+                <stack-trace>Error: expect(received).toBeTruthy()
+                
+                Received: undefined
+                    at Context.&lt;anonymous> (C:\Projetos\testes-mobile-ebac-shop\test\specs\loginAndRegisterProduct.spec.js:35:46)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

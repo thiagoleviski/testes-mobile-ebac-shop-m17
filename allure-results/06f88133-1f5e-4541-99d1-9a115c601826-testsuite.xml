@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675545546446' stop='1675545651312'>
+    <name>Access admin painel</name>
+    <title>Access admin painel</title>
+    <test-cases>
+        <test-case start='1675545546447' status='broken' stop='1675545651303'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy s8-7.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='aadfc664-067f-4308-9fa0-2955c3797d1f-attachment.mp4' type='video/mp4' size='160'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "//android.widget.ImageButton[@content-desc="Navigate up"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//android.widget.ImageButton[@content-desc="Navigate up"]" because element wasn't found
+                    at async Product.addInventory (C:\Projetos\testes-mobile-ebac-shop\test\screens\product.screen.js:162:9)
+                    at async Context.&lt;anonymous> (C:\Projetos\testes-mobile-ebac-shop\test\specs\login.spec.js:32:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

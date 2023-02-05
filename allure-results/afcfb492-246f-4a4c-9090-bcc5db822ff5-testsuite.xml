@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675545023428' stop='1675545035124'>
+    <name>Product registration</name>
+    <title>Product registration</title>
+    <test-cases>
+        <test-case start='1675545023429' status='broken' stop='1675545035087'>
+            <name>Registering one product</name>
+            <title>Registering one product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy s8-7.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='94dfdfcc-17ab-4c74-aa6d-ec9faae19d10-attachment.mp4' type='video/mp4' size='149'/>
+            </attachments>
+            <failure>
+                <message>element ("//android.widget.FrameLayout[@content-desc="Products"]/android.widget.FrameLayout/android.widget.ImageView") still not displayed after 10000ms</message>
+                <stack-trace>Error: element ("//android.widget.FrameLayout[@content-desc="Products"]/android.widget.FrameLayout/android.widget.ImageView") still not displayed after 10000ms
+                    at async Product.clickProductIcon (C:\Projetos\testes-mobile-ebac-shop\test\screens\product.screen.js:112:9)
+                    at async Context.&lt;anonymous> (C:\Projetos\testes-mobile-ebac-shop\test\specs\product.spec.js:5:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675605684436' stop='1675605788245'>
+    <name>Access admin painel</name>
+    <title>Access admin painel</title>
+    <test-cases>
+        <test-case start='1675605684437' status='broken' stop='1675605788234'>
+            <name>should login with valid credentials and register a product</name>
+            <title>should login with valid credentials and register a product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy s8-7.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='9578d4a5-6bfa-4da7-9a72-db4fc802baa3-attachment.mp4' type='video/mp4' size='183'/>
+            </attachments>
+            <failure>
+                <message>Appium error: Locator Strategy 'css selector' is not supported for this session</message>
+                <stack-trace>WebDriver Error: Appium error: Locator Strategy 'css selector' is not supported for this session
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Product.displayedTip (C:\Projetos\testes-mobile-ebac-shop\test\screens\product.screen.js:176:9)
+                    at async Context.&lt;anonymous> (C:\Projetos\testes-mobile-ebac-shop\test\specs\loginAndRegisterProduct.spec.js:35:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

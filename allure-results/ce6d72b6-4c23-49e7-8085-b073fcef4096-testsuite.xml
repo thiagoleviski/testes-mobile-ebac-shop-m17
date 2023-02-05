@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675607390827' stop='1675607412525'>
+    <name>Access admin painel</name>
+    <title>Access admin painel</title>
+    <test-cases>
+        <test-case start='1675607390828' status='broken' stop='1675607412518'>
+            <name>should login with valid credentials and register a product</name>
+            <title>should login with valid credentials and register a product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy s8-7.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='0734aec9-5420-4668-bd96-e33b4532153f-attachment.mp4' type='video/mp4' size='183'/>
+            </attachments>
+            <failure>
+                <message>element ("id:login_site_creds") still not displayed after 10000ms</message>
+                <stack-trace>Error: element ("id:login_site_creds") still not displayed after 10000ms
+                    at async LoginScreen.continueWithStoreCredentials (C:\Projetos\testes-mobile-ebac-shop\test\screens\login.screen.js:46:9)
+                    at async Context.&lt;anonymous> (C:\Projetos\testes-mobile-ebac-shop\test\specs\loginAndRegisterProduct.spec.js:17:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
